@@ -1,4 +1,4 @@
-# 📊 Dynamic Portfolio Allocation under Uncertainty
++# 📊 Dynamic Portfolio Allocation under Uncertainty
 
 This project implements and compares dynamic portfolio optimization methods for allocating wealth between risky and a risk-free asset over multiple periods. 
 It explores both analytical and approximate solutions under different investor utility functions, including log and CRRA utilities.
@@ -13,18 +13,15 @@ It explores both analytical and approximate solutions under different investor u
   - Convex optimization via CVXPY
   - Approximate Dynamic Programming (ADP)
 - **Key Features**:
-  - Single-period log utility optimization
-  - Multi-asset convex optimization using expected log returns
-  - Dynamic programming with CRRA utility and cubic interpolation
+  - Exact dynamic programming with log utility and multi-asset convex optimization 
+  - Approximate dynamic programming with a single risky asset, CRRA utility, and cubic interpolation
   - Wealth grid construction and policy extraction
 ---
 
 ## 📌 Modeling Assumptions
 
 - The market is assumed to be **frictionless**, with no transaction costs, slippage, or liquidity constraints.
-- Portfolios are rebalanced without penalty at each time step.
 - Risk-free and risky assets are perfectly divisible.
-
 
 ---
 
@@ -56,20 +53,15 @@ It explores both analytical and approximate solutions under different investor u
 
 - Demonstrates how optimal asset allocations change over time and across wealth levels.
 - Highlights the performance of approximate dynamic programming versus exact methods.
-- Offers a blueprint for extending to multi-asset, multi-period portfolio problems.
+- Offers a blueprint for extending the ADP to multi-asset, multi-period portfolio problems.
 
 ---
 
 ## 📚 Citation
 
 If you use this code in your work, please cite this repository:
-@misc{dynamic-portfolio-allocation,
-author = {Rami Younes},
-title = {Dynamic Portfolio Allocation under Uncertainty},
-year = {2025},
-url = {https://github.com/ramiuness/dynamic-portfolio-allocation}
-}
 
+https://github.com/ramiuness/dynamic-portfolio-allocation
 
 ---
 
