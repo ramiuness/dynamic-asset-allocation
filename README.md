@@ -1,4 +1,4 @@
-+# 📊 Dynamic Portfolio Allocation under Uncertainty
+## 📊 Dynamic Portfolio Allocation under Uncertainty
 
 This project implements and compares dynamic portfolio optimization methods for allocating wealth between risky and a risk-free asset over multiple periods. 
 It explores both analytical and approximate solutions under different investor utility functions, including log and CRRA utilities.
