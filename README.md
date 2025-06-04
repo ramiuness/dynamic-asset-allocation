@@ -56,7 +56,7 @@ It explores both analytical and approximate solutions under different investor u
 
 If you use this code in your work, please cite this repository:
 @misc{dynamic_portfolio_allocation,
-author = {Rami Uness},
+author = {Rami Younes},
 title = {Dynamic Portfolio Allocation under Uncertainty},
 year = {2025},
 url = {https://github.com/ramiuness/dynamic-portfolio-allocation}
