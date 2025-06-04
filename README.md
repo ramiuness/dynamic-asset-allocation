@@ -17,6 +17,14 @@ It explores both analytical and approximate solutions under different investor u
   - Multi-asset convex optimization using expected log returns
   - Dynamic programming with CRRA utility and cubic interpolation
   - Wealth grid construction and policy extraction
+---
+
+## 📌 Modeling Assumptions
+
+- The market is assumed to be **frictionless**, with no transaction costs, slippage, or liquidity constraints.
+- Portfolios are rebalanced without penalty at each time step.
+- Risk-free and risky assets are perfectly divisible.
+
 
 ---
 
